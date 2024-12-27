@@ -12,3 +12,7 @@ class FizzBuzz:
       StringNum = str(num)
 
     return StringNum
+  
+  def PrintFizzBuzz(self):
+    for i in range(1,101):
+      print(self.GetNumber(i))
