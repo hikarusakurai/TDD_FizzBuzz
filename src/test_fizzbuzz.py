@@ -22,3 +22,4 @@ class FizzBuzzTest(unittest.TestCase):
   def test_NumToString(self):
     fizzbuzz = FizzBuzz()
     self.assertEqual("1", fizzbuzz.GetNumber(1))
+    self.assertEqual("2", fizzbuzz.GetNumber(2))
