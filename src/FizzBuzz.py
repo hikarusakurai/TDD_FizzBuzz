@@ -1,5 +1,6 @@
 
 
 class FizzBuzz:
-  def GetNumber(self,num:int) -> str:
-    return "1"
+  def GetNumber(self, num:int) -> str:
+    StringNum = str(num)
+    return StringNum
