@@ -10,7 +10,7 @@
 
 #======Todo==================================================#
 # ・数字を文字列に変換する =======================> 完了
-# ・3の倍数の場合は"Fizz"に変換する
+# ・3の倍数の場合は"Fizz"に変換する===============> 完了
 # ・5の倍数の場合は"Buzz"に変換する
 # ・3と5の両方の倍数の場合は"FizzBuzz"をに変換する
 #===========================================================#
@@ -26,3 +26,5 @@ class FizzBuzzTest(unittest.TestCase):
 
     self.assertEqual("Fizz", fizzbuzz.GetNumber(3))
     self.assertEqual("Fizz", fizzbuzz.GetNumber(9))
+
+    self.assertEqual("Buzz", fizzbuzz.GetNumber(5))
