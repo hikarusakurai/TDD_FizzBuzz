@@ -12,3 +12,8 @@
 # ・数字を1から100まで順番に出力する
 #===========================================================#
 
+import unittest 
+
+class FizzBuzzTest(unittest.TestCase):
+  def test_NumToString(self, num:int):
+    self.assertEqual("1", fizzbuzz.GetNumber(1))
