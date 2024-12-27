@@ -2,5 +2,9 @@
 
 class FizzBuzz:
   def GetNumber(self, num:int) -> str:
-    StringNum = str(num)
+    if num == 3:
+      StringNum = "Fizz"
+    else:
+      StringNum = str(num)
+      
     return StringNum
