@@ -13,7 +13,9 @@
 #===========================================================#
 
 import unittest 
+from FizzBuzz import FizzBuzz
 
 class FizzBuzzTest(unittest.TestCase):
-  def test_NumToString(self, num:int):
+  def test_NumToString(self):
+    fizzbuzz = FizzBuzz()
     self.assertEqual("1", fizzbuzz.GetNumber(1))
