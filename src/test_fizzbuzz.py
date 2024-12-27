@@ -28,3 +28,4 @@ class FizzBuzzTest(unittest.TestCase):
     self.assertEqual("Fizz", fizzbuzz.GetNumber(9))
 
     self.assertEqual("Buzz", fizzbuzz.GetNumber(5))
+    self.assertEqual("Buzz", fizzbuzz.GetNumber(10))
